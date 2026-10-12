@@ -1,3 +1,36 @@
+# FastMoss女士运动服饰选品系统 V3 快速选品版
+
+[已有V2.1：下载V3更新包](https://github.com/AirWaltz-enter/codex/raw/refs/heads/fastmoss-v2/downloads/FastMoss_V3_Update.zip)
+
+[更新包GitHub文件页](https://github.com/AirWaltz-enter/codex/blob/fastmoss-v2/downloads/FastMoss_V3_Update.zip) → Download raw file（下载原始文件）。私有仓库需要登录有访问权限的账号。
+
+[新安装：下载V3完整包](https://github.com/AirWaltz-enter/codex/raw/refs/heads/fastmoss-v2/downloads/FastMoss_V3.zip)
+
+## 安装与运行
+
+1. 关闭Excel、备份原工具。解压更新包，将包内FastMoss选品清洗工具目录的文件复制到原目录，覆盖同名代码和说明。
+2. 两份新增V3配置必须复制。更新包不覆盖原三份配置、原始Excel、报告、图片或1688数据。
+3. 最新FastMoss原表放入01_FastMoss原始表，双击新入口 **运行V3.bat**。
+4. 在02_筛选后表格查看FastMoss_V3推荐商品.xlsx、人工复查.xlsx、删除记录.xlsx。
+5. 默认仍需人工图片确认：在人工复查.xlsx填写图片判断，并选择图片审核状态=确认运动服饰，保存关闭后重跑。其他缺失数据/关键词冲突仍按规则复查，不能用图片确认绕过。
+
+目标扩展为女士运动外套、长袖、套装和裤子，六项评分合计100。明确男款、儿童、卫衣、非运动目标及原日期/状态/增长规则继续执行。缺少明确7天销量、达人数量或数值关键词趋势时复查，不为增加推荐数量造数据。
+
+图片AI接口默认关闭，未进行真实模型识别验证；可用人工审核。66项自动测试通过，两个包解压实际运行验证通过，Windows桌面仍未实测。随包2026年7月旧样本在当前日期可能全部超过默认90天，请使用自己的最新原表。
+
+- [完整使用说明](README_V3.md)
+- [升级说明](V3升级说明.md)
+- [修改与新增文件清单](V3变更清单.md)
+- [实际测试结果及已知限制](V3测试运行结果.md)
+
+## 校验
+
+- `FastMoss_V3_Update.zip`：124342字节；SHA256 `4e21e1bfb836a0462f957da7d8aa70380a956168df8d51a104d0daa2c53c90b1`
+- `FastMoss_V3.zip`：7911716字节；SHA256 `e2c0edc9a1f6f2f7398f9ab3dec00b6f5469a616c2484eaa9aa1f7d683f7b98c`
+
+<details>
+<summary>旧V2.1下载及历史说明（保留）</summary>
+
 # FastMoss女士运动外套选品系统 V2.1
 
 ## 已有V2：下载更新包
@@ -30,3 +63,5 @@
 - `FastMoss_V2_1.zip`：7822119 字节；SHA256 `6e023ebb84af7d121d58b6c3c3cb3ac7b9d38d2732f5cfabec36b587ad758f54`
 
 [保留的原V2完整包](https://github.com/AirWaltz-enter/codex/blob/fastmoss-v2/downloads/FastMoss_V2.zip)
+
+</details>
